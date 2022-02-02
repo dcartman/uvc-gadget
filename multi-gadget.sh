@@ -15,8 +15,8 @@ echo 0x01 > $GADGET_PATH/bDeviceProtocol
 
 mkdir $GADGET_PATH/strings/0x409
 echo 100000000d2386db > $GADGET_PATH/strings/0x409/serialnumber
-echo "Samsung" > $GADGET_PATH/strings/0x409/manufacturer
-echo "PI4 USB Device" > $GADGET_PATH/strings/0x409/product
+echo "DCLabs" > $GADGET_PATH/strings/0x409/manufacturer
+echo "PiZero 2 W USB Device" > $GADGET_PATH/strings/0x409/product
 mkdir $GADGET_PATH/configs/c.1
 mkdir $GADGET_PATH/configs/c.1/strings/0x409
 echo 500 > $GADGET_PATH/configs/c.1/MaxPower
